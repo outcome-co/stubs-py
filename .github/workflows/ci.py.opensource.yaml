@@ -100,6 +100,9 @@ jobs:
 
         - name: Run checks
           run: make check
+
+        - name: Run tests
+          run: make test
         
         # From here on, all checks and tests have passed, and we're heading for a release
         # if we're merging into master (i.e. not pull requests or repository_dispatch)
