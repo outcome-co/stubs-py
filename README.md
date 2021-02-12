@@ -1,5 +1,5 @@
 # stubs-py
-![Continuous Integration](https://github.com/outcome-co/stubs-py/workflows/Continuous%20Integration/badge.svg) ![version-badge](https://img.shields.io/badge/version-0.1.0-brightgreen)
+![Continuous Integration](https://github.com/outcome-co/stubs-py/workflows/Continuous%20Integration/badge.svg) ![version-badge](https://img.shields.io/badge/version-0.2.0-brightgreen)
 
 Stubs for various python packages.
 
