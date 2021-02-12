@@ -42,12 +42,4 @@ repos:
       types: [file, python]  # Only triggered if python files are changed in the commit
       pass_filenames: false
   
-    - id: test
-      name: test
-      language: system  # Running on the local system
-      stages: [push]
-      verbose: true
-      entry: make test-unit
-      types: [file, python]  # Only triggered if python files are changed in the commit
-      pass_filenames: false
   

@@ -14,7 +14,8 @@ check-types: ## Run mypy
 lint: clean lint-isort lint-black lint-flake ## Run all linters
 	
 lint-flake: ## Run flake linting
-	poetry run flake8 ./src ./test
+	poetry run flake8 ./src 
+	(test -d test && poetry run flake8 ./test) || true
 	(test -d bin && poetry run flake8 ./bin) || true
 
 ifeq ($(INSIDE_CI),0)

@@ -1,7 +1,9 @@
 # stubs-py
-![ci-badge](https://github.com/outcome-co/stubs-py/workflows/Release/badge.svg?branch=v0.1.0) ![version-badge](https://img.shields.io/badge/version-0.1.0-brightgreen)
+![Continuous Integration](https://github.com/outcome-co/stubs-py/workflows/Continuous%20Integration/badge.svg) ![version-badge](https://img.shields.io/badge/version-0.1.0-brightgreen)
 
-Description TBD
+Stubs for various python packages.
+
+They are often partial, sometimes incomplete.
 
 ## Usage
 
