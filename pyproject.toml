@@ -12,11 +12,11 @@ documentation = "https://github.com/outcome-co/stubs-py#README"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "~3.8.6"
-pactman = {version = "^2.28.0", optional = true}
+python = "^3.8.6"
+pactman = "^2.28.0"
 
 [tool.poetry.dev-dependencies]
-outcome-devkit = "^4.1.1"
+outcome-devkit = "^5.0.2"
 
 [tool.isort]
 skip_glob = "*/.cache/**/*"
