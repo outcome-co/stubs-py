@@ -27,11 +27,17 @@ class ProviderState(TypedDict):
     name: str
     params: Dict[str, str]
 
+class Request(TypedDict):
+    method: str
+    path: str
+
 class V2Interaction(TypedDict):
     providerState: str
+    request: Request
 
 class V3Interaction(TypedDict):
     providerStates: List[ProviderState]
+    request: Request
 
 Interaction = Union[V2Interaction, V3Interaction]
 
