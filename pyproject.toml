@@ -20,7 +20,7 @@ requests = "^2.25.1"
 fastapi = "^0.63.0"
 
 [tool.poetry.dev-dependencies]
-outcome-devkit = "^5.8.0"
+outcome-devkit = "^6.0.0"
 
 [tool.isort]
 skip_glob = "*/.cache/**/*"
